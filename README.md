@@ -1,5 +1,7 @@
 Modelo criado com brModelo
 
+As cardinalidades provavelmente não estão certas, e tenho quase certeza que errei algo nas relações.
+
 # Mini-historia
 
 **Contexto**: Loja genérica com suporte a delivery
@@ -8,7 +10,7 @@ Modelo criado com brModelo
 
 - É necessário que o Fornecedor tenha ao menos 1 produto para fornecer para as lojas e que as lojas comprem no minimo 1 produto dos fornecedores.
 
-- A loja pode ter ou não investidores.
+- A loja pode ter ou não investidores externos.
 
 - Os clientes tem duas formas de fazer suas compras: fisicamente, o que envolve o auxílio de funcionários da loja física, ou virtualmente, feito pelo site da loja e entregado por uma empresa de delivery.
 
