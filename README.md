@@ -1,19 +1,13 @@
 Modelo criado com brModelo
 
-As cardinalidades provavelmente não estão certas, e tenho quase certeza que errei algo nas relações.
-
 # Mini-historia
 
 **Contexto**: Loja genérica com suporte a delivery
 
-- Para estocar a loja, são necessários produtos. Sendo eles produzidos por um produtor e comprados de um Fornecedor.
+Modelo representa uma loja genérica, tendo ela um suporte a **compras físicas ou digitais**. Para o sistema **físico**, é necessário o auxílio de **funcionários** para a realização das compras dos **clientes**. Já no digital, o **cliente** faz suas compras sozinho, contudo, é necessário uma **transportadora** para leva-las ao destinatário.
 
-- É necessário que o Fornecedor tenha ao menos 1 produto para fornecer para as lojas e que as lojas comprem no minimo 1 produto dos fornecedores.
+A loja tem a escolha de ter o modelo digital ou não, caso ela queira, é necessário também um app/website para a realização das compras.
 
-- A loja pode ter ou não investidores externos.
+Essa loja, tanto em modelo digital, quanto em modelo físico, tem o fornecimento de seus produtos por um **produtor externo**. Apos o fornecimento, esses produtos são guardados em um estoque.
 
-- Os clientes tem duas formas de fazer suas compras: fisicamente, o que envolve o auxílio de funcionários da loja física, ou virtualmente, feito pelo site da loja e entregado por uma empresa de delivery.
-
-- No caso da loja física, ela precisa necessariamente contratar ao menos 1 funcionário para atender os clientes.
-
-- Na loja web é necessário a contratação de pelo menos um funcionário TI, para a realização da manutenção do site.
+Para facilitar o financiamento, pode existir a ajuda de **investidores**. Esses receberiam uma porcentagem dos ganhos do supermercado.
