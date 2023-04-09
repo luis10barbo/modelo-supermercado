@@ -1,7 +1,5 @@
 Modelo criado com brModelo
 
-CONCEITUAL4_organizado -> Modelo mais atualizado e organizado
-
 # Mini-historia
 
 **Contexto**: Loja com suporte a delivery
