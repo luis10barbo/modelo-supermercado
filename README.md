@@ -2,9 +2,9 @@ Modelo criado com brModelo
 
 # Mini-historia
 
-**Contexto**: Loja genérica com suporte a delivery
+**Contexto**: Loja com suporte a delivery
 
-Modelo representa uma loja genérica, tendo ela um suporte a **compras físicas ou digitais**, sendo o último modelo opcional.
+Modelo representa uma loja, tendo ela um suporte a **compras físicas ou digitais**, sendo o último modelo opcional.
 
 Para o sistema **físico**, é necessário o auxílio de **funcionários** para a realização das compras dos **clientes**. Já no digital, o **cliente** faz suas compras sozinho, contudo é necessário um **website** para realiza-las e uma **transportadora** para transporta-las.
 
